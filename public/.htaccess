@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^(?:data/)?(preview|sample|jpeg|image)/([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{28})(?:/.*?)?(\.[\w]+)$  data/$1/$2/$3/$2$3$4$5 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php [L]

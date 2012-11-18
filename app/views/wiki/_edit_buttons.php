@@ -1,0 +1,2 @@
+<?= $this->text_area("wiki_page", "body", ['size' => "60x30"]) ?><br>
+<?= $this->submit_tag("Save", ['name' => "save"]) ?><?= $this->button_to_function("Cancel", "history.back()") ?><?= $this->button_to_function("Preview", "$('wiki-view').innerHTML = '<em>Loading preview...</em>'; new Ajax.Updater('wiki-view', '/wiki/preview', {parameters: 'body=' + encodeURIComponent($('wiki_page_body').value)})") ?>

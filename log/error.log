@@ -1,0 +1,169 @@
+[18-Nov-2012 00:54:37 PET] /assets/ja.json
+Routing error
+No route matches [GET] "/assets/ja.json"
+
+[18-Nov-2012 00:54:54 PET] /assets/ja.json
+Routing error
+No route matches [GET] "/assets/ja.json"
+
+[18-Nov-2012 00:54:59 PET] /assets/ja.json
+Routing error
+No route matches [GET] "/assets/ja.json"
+
+[18-Nov-2012 05:55:19 UTC] PHP Parse error:  syntax error, unexpected '?>' in E:\xampp\htdocs\myimouto\app\views\pool\order.php on line 1
+[18-Nov-2012 05:58:26 UTC] PHP Parse error:  syntax error, unexpected ']' in E:\xampp\htdocs\myimouto\app\views\pool\order.php on line 66
+[18-Nov-2012 05:58:42 UTC] PHP Parse error:  syntax error, unexpected ']' in E:\xampp\htdocs\myimouto\app\views\pool\order.php on line 66
+[18-Nov-2012 01:05:30 PET] /pool/order/26
+ActiveRecord_Base_Exception raised
+Call to undefined static method PoolPost::update
+app\controllers\pool_controller.php (328)
+#0 app\controllers\pool_controller.php(328): ActiveRecord_Base::__callStatic(update, Array)
+#1 app\controllers\pool_controller.php(328): PoolPost::update(343, Array)
+#2 lib\Rails\ActionController\Base.php(152): PoolController->order()
+#3 lib\Rails\ActionController\Base.php(139): ActionController_Base->_run_action(order)
+#4 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#5 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#6 lib\Rails\Application.php(40): Rails::init_application()
+#7 lib\Rails\Application.php(46): Rails_Application::init_application()
+#8 public\index.php(3): Rails_Application::run()
+#9 {main}
+
+[18-Nov-2012 01:10:21 PET] /pool/order/26
+Rails_Exception raised
+[PHP error] Warning: implode(): Invalid arguments passed 
+#0 [internal function]: Rails::error_handler(2, implode(): Inva..., E:\xampp\htdocs..., 153, Array)
+#1 lib\Rails\ActiveRecord\Base.php(153): implode(, , `sequence` = ?)
+#2 app\controllers\pool_controller.php(328): ActiveRecord_Base::update(343, Array)
+#3 lib\Rails\ActionController\Base.php(152): PoolController->order()
+#4 lib\Rails\ActionController\Base.php(139): ActionController_Base->_run_action(order)
+#5 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#6 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#7 lib\Rails\Application.php(40): Rails::init_application()
+#8 lib\Rails\Application.php(46): Rails_Application::init_application()
+#9 public\index.php(3): Rails_Application::run()
+#10 {main}
+
+[18-Nov-2012 01:10:28 PET] /pool/order/26
+Rails_Exception raised
+[PHP error] Warning: PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens 
+#0 [internal function]: Rails::error_handler(2, PDOStatement::e..., E:\xampp\htdocs..., 73, Array)
+#1 lib\Rails\ActiveRecord.php(73): PDOStatement->execute(Array)
+#2 lib\Rails\ActiveRecord\Base.php(155): ActiveRecord::execute_sql(Array)
+#3 app\controllers\pool_controller.php(328): ActiveRecord_Base::update(343, Array)
+#4 lib\Rails\ActionController\Base.php(152): PoolController->order()
+#5 lib\Rails\ActionController\Base.php(139): ActionController_Base->_run_action(order)
+#6 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#7 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#8 lib\Rails\Application.php(40): Rails::init_application()
+#9 lib\Rails\Application.php(46): Rails_Application::init_application()
+#10 public\index.php(3): Rails_Application::run()
+#11 {main}
+
+[18-Nov-2012 01:10:45 PET] /pool/order/26
+ActiveRecord_Exception raised
+[PDOStatement error] [SQLSTATE 42S02] (1146) Table 'myimouto.poolpost' doesn't exist
+Query: UPDATE `PoolPost` SET `sequence` = ? WHERE id = ?
+Values: array (
+  0 => '0',
+  1 => 343,
+)
+lib\Rails\ActiveRecord.php (171)
+#0 lib\Rails\ActiveRecord.php(75): ActiveRecord::raise('ActiveRecord_Ex...', '[PDOStatement e...', Array, Object(PDOStatement), Array)
+#1 lib\Rails\ActiveRecord\Base.php(156): ActiveRecord::execute_sql(Array)
+#2 app\controllers\pool_controller.php(328): ActiveRecord_Base::update(343, Array)
+#3 lib\Rails\ActionController\Base.php(152): PoolController->order()
+#4 lib\Rails\ActionController\Base.php(139): ActionController_Base->_run_action('order')
+#5 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#6 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#7 lib\Rails\Application.php(40): Rails::init_application()
+#8 lib\Rails\Application.php(46): Rails_Application::init_application()
+#9 public\index.php(3): Rails_Application::run()
+#10 {main}
+
+[18-Nov-2012 06:11:03 UTC] PHP Parse error:  syntax error, unexpected '?>' in E:\xampp\htdocs\myimouto\app\views\pool\import.php on line 1
+[18-Nov-2012 01:11:42 PET] /history?search=pool%3A26
+Routing error
+No route matches [GET] "/history"
+
+[18-Nov-2012 06:35:24 UTC] PHP Parse error:  syntax error, unexpected '?', expecting '(' in E:\xampp\htdocs\myimouto\app\views\tag\cloud.php on line 2
+[18-Nov-2012 01:35:56 PET] /tag/cloud
+Routing error
+No route matches [GET] "/tag/cloud"
+
+[18-Nov-2012 06:35:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in E:\xampp\htdocs\myimouto\app\views\tag\mass_edit.php on line 1
+[18-Nov-2012 06:45:04 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in E:\xampp\htdocs\myimouto\app\controllers\tag_controller.php on line 138
+[18-Nov-2012 06:45:15 UTC] PHP Parse error:  syntax error, unexpected '>' in E:\xampp\htdocs\myimouto\app\views\tag\mass_edit.php on line 1
+[18-Nov-2012 01:46:32 PET] /tag/edit_preview?tags=carnelian
+ActiveRecord_Exception raised
+[PDOStatement error] [SQLSTATE 42000] (1064) You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Query: SELECT SQL_CALC_FOUND_ROWS * FROM 
+lib\Rails\ActiveRecord.php (171)
+#0 lib\Rails\ActiveRecord.php(75): ActiveRecord::raise('ActiveRecord_Ex...', '[PDOStatement e...', Array, Object(PDOStatement), Array)
+#1 lib\Rails\ActiveRecord\Query.php(134): ActiveRecord::execute_sql(Array)
+#2 lib\Rails\ActiveRecord\Base.php(129): ActiveRecord_Query->execute()
+#3 app\controllers\tag_controller.php(147): ActiveRecord_Base::find_by_sql(Array)
+#4 lib\Rails\ActionController\Base.php(152): TagController->edit_preview()
+#5 lib\Rails\ActionController\Base.php(139): ActionController_Base->_run_action('edit_preview')
+#6 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#7 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#8 lib\Rails\Application.php(40): Rails::init_application()
+#9 lib\Rails\Application.php(46): Rails_Application::init_application()
+#10 public\index.php(3): Rails_Application::run()
+#11 {main}
+
+[18-Nov-2012 06:51:07 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\myimouto\app\models\post\tag_methods.php on line 8
+[18-Nov-2012 06:51:22 UTC] PHP Parse error:  syntax error, unexpected 'do' (T_DO) in E:\xampp\htdocs\myimouto\app\views\tag\edit_preview.php on line 1
+[18-Nov-2012 06:52:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in E:\xampp\htdocs\myimouto\app\views\tag\edit_preview.php on line 2
+[18-Nov-2012 01:55:48 PET] /static/more
+Routing error
+No route matches tag#cloud
+lib\Rails\ActionController.php (15)
+#0 lib\Rails\ActionController.php(15): ActionController_UrlFor->__construct(Array)
+#1 lib\Rails\ActionView\Helper.php(92): ActionController::url_for(Array)
+#2 lib\Rails\ActionView\Helper\Html.php(8): ActionView_Helper->_parse_url_params(tag#cloud)
+#3 [internal function]: ActionView_Helper->link_to(List (cloud vie..., tag#cloud)
+#4 lib\Rails\ActionView\Base.php(44): call_user_func_array(Array, Array)
+#5 app\views\static\more.php(45): ActionView_Base->__call(link_to, Array)
+#6 app\views\static\more.php(45): ActionView_Template->link_to(List (cloud vie..., tag#cloud)
+#7 lib\Rails\ActionView\Template.php(164): require(E:\xampp\htdocs...)
+#8 lib\Rails\ActionView\Template.php(60): ActionView_Template->_init_render()
+#9 lib\Rails\ActionController\Response\View.php(26): ActionView_Template->render_content()
+#10 lib\Rails\ActionController\Response\Base.php(11): ActionController_Response_View->_render_view()
+#11 lib\Rails\ActionController\Base.php(468): ActionController_Response_Base->render_view()
+#12 lib\Rails\ActionController\Base.php(142): ActionController_Base->_create_response_body()
+#13 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#14 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#15 lib\Rails\Application.php(40): Rails::init_application()
+#16 lib\Rails\Application.php(46): Rails_Application::init_application()
+#17 public\index.php(3): Rails_Application::run()
+#18 {main}
+
+[18-Nov-2012 01:56:32 PET] /tag/cloud
+Unknown action
+The action 'cloud' could not be found for TagController
+
+[18-Nov-2012 02:14:05 PET] /help/artists
+Routing error
+No route matches artist#add
+lib\Rails\ActionController.php (15)
+#0 lib\Rails\ActionController.php(15): ActionController_UrlFor->__construct(Array)
+#1 lib\Rails\ActionView\Helper.php(92): ActionController::url_for(Array)
+#2 lib\Rails\ActionView\Helper\Html.php(8): ActionView_Helper->_parse_url_params(artist#add)
+#3 [internal function]: ActionView_Helper->link_to(go here, artist#add)
+#4 lib\Rails\ActionView\Base.php(44): call_user_func_array(Array, Array)
+#5 app\views\help\artists.php(24): ActionView_Base->__call(link_to, Array)
+#6 app\views\help\artists.php(24): ActionView_Template->link_to(go here, artist#add)
+#7 lib\Rails\ActionView\Template.php(164): require(E:\xampp\htdocs...)
+#8 lib\Rails\ActionView\Template.php(60): ActionView_Template->_init_render()
+#9 lib\Rails\ActionController\Response\View.php(26): ActionView_Template->render_content()
+#10 lib\Rails\ActionController\Response\Base.php(11): ActionController_Response_View->_render_view()
+#11 lib\Rails\ActionController\Base.php(468): ActionController_Response_Base->render_view()
+#12 lib\Rails\ActionController\Base.php(142): ActionController_Base->_create_response_body()
+#13 lib\Rails\Application.php(87): ActionController_Base->run_request_action()
+#14 lib\Rails\Rails.php(73): Rails_Application->initialize()
+#15 lib\Rails\Application.php(40): Rails::init_application()
+#16 lib\Rails\Application.php(46): Rails_Application::init_application()
+#17 public\index.php(3): Rails_Application::run()
+#18 {main}
+
+[18-Nov-2012 07:38:48 UTC] PHP Fatal error:  Call to a member function response() on a non-object in E:\xampp\htdocs\myimouto\lib\Rails\Rails.php on line 280

@@ -1,0 +1,21 @@
+# If this folder can be accessed by the users,
+# here are some ways to handle the request.
+# Otherwise, this file can be deleted.
+#
+# "deny from all" won't work since this htaccess
+# is the parent one and will deny any further
+# connections.
+
+RewriteEngine On
+
+# Call a fake file to trigger Apache's 404 error.
+RewriteRule .* fake.file [L]
+
+# Redirect to the actual URL.
+RewriteRule .* http://127.0.0.1:3000 [R=301,L]
+
+# Call the actual index. This is most likely to generate
+# a 404 error too, the problem is that the paths for
+# CSS and images will be screwed; the 404 document
+# won't look nice.
+RewriteRule .* public/index.php [L]

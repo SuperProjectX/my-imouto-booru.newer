@@ -1,0 +1,1 @@
+<p><h2>FORBIDDEN FOR CLIENT <?php echo $this->request()->remote_ip() ?></h2></p>

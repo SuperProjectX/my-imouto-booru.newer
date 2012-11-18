@@ -1,0 +1,33 @@
+Error: Syntax error at line 1 in event handler: expected ';', got ':'
+UA: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.10
+URL: http://myimouto/tag/mass_edit
+Cookies: vote=1; login=moe-imouto; pass_hash=(removed); hide-news-ticker=1; show_defaults_to_edit=0; locale=en; MoeBooru=0nlkdd9l0b2rhvujf8im8ivnq6; mode=view; tag-script=rating:s; current_forum_posts=[["i+dont+get+it","15",false,1],["sum+cool+men?","19",false,1],["First+topic!","7",false,1],["Teh+New+topec","13",false,1],["New+topic","12",false,0]]; country=--; user_id=4; user_info=4;50;0; has_mail=0; forum_updated=0; comments_updated=0; mod_pending=0; resize_image=1; show_advanced_editing=1; my_tags=sunlight+flowers+ribbons; blacklisted_tags=["rating:q"]; held_post_count=0; reported_error=1
+File: http://myimouto/tag/mass_edit line 1
+
+
+
+-------------------------------------------
+
+
+Error: Syntax error at line 320 while loading: expected ';', got 'Post'
+UA: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.10
+URL: http://myimouto/comment
+Cookies: vote=1; login=moe-imouto; pass_hash=(removed); hide-news-ticker=1; locale=en; MoeBooru=0nlkdd9l0b2rhvujf8im8ivnq6; show_defaults_to_edit=1; recent_tags=+++++++++; PHPSESSID=n9dsbrn3upaio14o4fq7fehij3; tag-script=rating:s; mode=view; current_forum_posts=[["i+dont+get+it","15",false,1],["sum+cool+men?","19",false,1],["First+topic!","7",false,1],["Teh+New+topec","13",false,1],["New+topic","12",false,0]]; country=--; user_id=4; user_info=4;50;0; has_mail=0; forum_updated=0; comments_updated=0; mod_pending=0; resize_image=1; show_advanced_editing=1; my_tags=sunlight+flowers+ribbons; blacklisted_tags=["rating:q"]; held_post_count=0; reported_error=1
+File: http://myimouto/comment line 320
+
+
+
+-------------------------------------------
+
+
+Error: Syntax error at line 1 in event handler: in string literal: unexpected end of script
+UA: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.10
+URL: http://myimouto/post/show/3745/animal_ears-masaki_-machisora-nekomimi-summon_nigh
+Cookies: vote=1; login=moe-imouto; pass_hash=(removed); hide-news-ticker=1; locale=en; show_defaults_to_edit=1; MoeBooru=rpqia93m9kffo3dj3nti3fjcm2; mode=view; current_forum_posts=[["i+dont+get+it","15",false,1],["sum+cool+men?","19",false,1],["First+topic!","7",false,1],["Teh+New+topec","13",false,1],["New+topic","12",false,0]]; country=--; user_id=4; user_info=4;50;0; has_mail=0; forum_updated=0; comments_updated=0; mod_pending=0; resize_image=1; show_advanced_editing=1; my_tags=sunlight+flowers+ribbons; blacklisted_tags=["rating:q"]; held_post_count=0; tag-script=rating:s; reported_error=1
+File: http://myimouto/post/show/3745/animal_ears-masaki_-machisora-nekomimi-summon_nigh line 1
+
+
+
+-------------------------------------------
+
+
